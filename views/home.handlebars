@@ -6,11 +6,10 @@
         <div class="max-width">
             <div class="logo"></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="/" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                {{!-- <li><a href="#skills" class="menu-btn">Skills</a></li> --}}
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -26,17 +25,12 @@
                 <div class="text-2">Travis Stewart</div>
                 <div class="text-3" style="font-weight: 200;">And I'm a <span class="typing"></span></div>
                 {{!-- <a href="#">Hire me</a> --}}     
-    
-
-
         </div>
         </div>
                 <div class="arrow">
                     <span></span>
                     <span></span>
                 </div>
-
-       
     </section>
     <!-- about section start -->
     <section class="about" id="about">
@@ -58,18 +52,41 @@
         </div>
     </section>
     <!-- services section start -->
-    <section class="services" id="services">
+    <section class="services" id="projects">
         <div class="max-width">
             <h2 class="title">My Projects</h2>
             <div class="serv-content">
-                {{!-- <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div> --}}
-
+     
+                        <div class="p">
+                            <div class="p-browser">
+                                <div class="p-circle"></div>
+                                <div class="p-circle"></div>
+                                <div class="p-circle"></div>
+                            </div>
+                            <a href="http://lama.dev" target="_blank">
+                                <img src="https://images.pexels.com/photos/1261005/pexels-photo-1261005.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="p-img">
+                            </a>
+                        </div>
+                        <div class="p">
+                            <div class="p-browser">
+                                <div class="p-circle"></div>
+                                <div class="p-circle"></div>
+                                <div class="p-circle"></div>
+                            </div>
+                            <a href="http://lama.dev" target="_blank">
+                                <img src="https://images.pexels.com/photos/1261005/pexels-photo-1261005.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="p-img">
+                            </a>
+                        </div>
+                        <div class="p">
+                            <div class="p-browser">
+                                <div class="p-circle"></div>
+                                <div class="p-circle"></div>
+                                <div class="p-circle"></div>
+                            </div>
+                            <a href="http://lama.dev" target="_blank">
+                                <img src="https://images.pexels.com/photos/1261005/pexels-photo-1261005.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="p-img">
+                            </a>
+                        </div>
                         <div class="p">
                             <div class="p-browser">
                                 <div class="p-circle"></div>
@@ -89,7 +106,7 @@
         </div>
     </section>
     <!-- skills section start -->
-    <section class="skills" id="skills">
+    {{!-- <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
@@ -137,7 +154,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- teams section start -->
 
     <!-- contact section start -->
@@ -150,27 +167,28 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
                     <div class="icons">
                         <div class="row">
-                             {{!-- <img class="c-icon" src="https://img.icons8.com/ios/50/000000/apple-phone.png"/>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Prakash Shahi</div>
-                            </div> --}}
-                                              <div class="c-info-item">
-                                                <img class="c-icon" src="https://img.icons8.com/ios/50/000000/apple-phone.png"/>
-                                                4347091999
-                                            </div>
+                            <a href="">
+                                <div class="c-info-item">
+                                    <img class="c-icon" src="https://img.icons8.com/ios/50/000000/apple-phone.png"/>
+                                       4347091999
+                                </div>
+                            </a>
                         </div>
                         <div class="row">
-                               <div class="c-info-item">
-                     <img class="c-icon" src="https://img.icons8.com/external-nawicon-detailed-outline-nawicon/50/000000/external-email-communication-nawicon-detailed-outline-nawicon-2.png"/>
-                    4347091999@gmail.com
-                  </div>
+                            <a href="">
+                                <div class="c-info-item">
+                                <img class="c-icon" src="https://img.icons8.com/external-nawicon-detailed-outline-nawicon/50/000000/external-email-communication-nawicon-detailed-outline-nawicon-2.png"/>
+                                    4347091999@gmail.com
+                            </div>
+                           </a>
                         </div>
                         <div class="row">
-                                  <div class="c-info-item">
-                     <img class="c-icon" src="https://img.icons8.com/ios/50/000000/address--v1.png"/>
-                    4347091999
-                  </div>    
+                            <a href="">
+                                <div class="c-info-item">
+                                    <img class="c-icon" src="https://img.icons8.com/ios/50/000000/linkedin.png"/>
+                                    4347091999
+                                </div>  
+                            </a>  
                         </div>
                     </div>
                 </div>

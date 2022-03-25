@@ -530,7 +530,14 @@ section .title::after{
 }
 
 /* contact section styling */
-
+.icons a{
+    color: inherit;
+}
+.icons a:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+}
 .c-info-item{
     display: flex;
     align-items: center;
@@ -539,6 +546,10 @@ section .title::after{
     width: 70%;
   
   }
+/* .c-info-item:hover{
+    cursor: pointer;
+    text-decoration: none;
+} */
   .c-icon{
     width: 30px;
     height: 30px;
@@ -559,6 +570,7 @@ section .title::after{
 }
 .contact .contact-content .left p{
     text-align: justify;
+    line-height: 2.3;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -674,6 +686,9 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+    .arrow{
+        display: none;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -739,6 +754,15 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+    .about .about-content, .services .serv-content, .skills .skills-content, .contact .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .p{
+        width: 100%;
+    }
     .max-width{
         padding: 0 23px;
     }
@@ -755,8 +779,25 @@ footer span a:hover{
         width: 100%;
     }
 }
+@media (max-width: 768px){
+    .p{
+        width: 100%;
+    }
+    .about .about-content, .services .serv-content, .skills .skills-content, .contact .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 600px){
+    .p{
+        width: 100%;
+    }
+}
 
 @media (max-width: 500px) {
+   
     .p{
         width: 100%;
     }
